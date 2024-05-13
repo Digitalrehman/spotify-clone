@@ -59,7 +59,7 @@ const Player = () => {
           <div
             ref={seekBg}
             onClick={songSeek}
-            className="w-[60vw] cursor-pointer max-w-[500px] rounded-full bg-gray-300"
+            className="w-[60vw] max-w-[500px] rounded-full bg-gray-300"
           >
             <hr
               ref={seekBar}
